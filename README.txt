@@ -46,3 +46,29 @@ Sample run: python general_subevent_summary.py Nepal nepal_place.txt 20150426 20
 
 Create two separate directories 1. concept_extraction and 2. parsed_event_files. Put all the relevant class specific files from all the datasets into these two directories.
 
+Ground Truth Summaries
+-----------------------
+We have prepared the ground truth summaries following the instructions of Document Understanding Conferences(DUC). 5 graduate students participated in this task. If you need ground truth summaries kindly sent a mail to rudra@l3s.de and pawang@cse.iitkgp.ac.in.
+
+If you are using the dataset of this paper, kindly cite the following article:
+
+Koustav Rudra, Pawan Goyal, Niloy Ganguly, Prasenjit Mitra, and Muhammad Imran. 2018. Identifying Sub-events and Summarizing Disaster-Related Information from Microblogs. In The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval (SIGIR '18). ACM, New York, NY, USA, 265-274. DOI: https://doi.org/10.1145/3209978.3210030
+
+@inproceedings{Rudra:2018:ISS:3209978.3210030,
+ author = {Rudra, Koustav and Goyal, Pawan and Ganguly, Niloy and Mitra, Prasenjit and Imran, Muhammad},
+ title = {Identifying Sub-events and Summarizing Disaster-Related Information from Microblogs},
+ booktitle = {The 41st International ACM SIGIR Conference on Research \&\#38; Development in Information Retrieval},
+ series = {SIGIR '18},
+ year = {2018},
+ isbn = {978-1-4503-5657-2},
+ location = {Ann Arbor, MI, USA},
+ pages = {265--274},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/3209978.3210030},
+ doi = {10.1145/3209978.3210030},
+ acmid = {3210030},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {class-based summarization, high-level summarization, humanitarian classes, situational information, sub-event detection},
+}
+
